@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Restaurant</h1>
+        <nav>
+            <a href="#about">हमारे बारे में</a>
+            <a href="#menu">मेनू</a>
+            <a href="#contact">संपर्क</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>हमारे बारे में</h2>
+            <p>My Restaurant एक परिवारिक रेस्टोरेंट है, जो स्वादिष्ट और ताज़ा भोजन परोसता है।</p>
+        </section>
+        <section id="menu">
+            <h2>मेनू</h2>
+            <ul>
+                <li>पनीर टिक्का - ₹200</li>
+                <li>दाल मखनी - ₹150</li>
+                <li>बटर चिकन - ₹250</li>
+                <li>गुलाब जामुन - ₹60</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>संपर्क करें</h2>
+            <form onsubmit="sendMessage(event)">
+                <input type="text" id="name" placeholder="आपका नाम" required>
+                <input type="email" id="email" placeholder="ईमेल" required>
+                <textarea id="message" placeholder="आपका संदेश" required></textarea>
+                <button type="submit">भेजें</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Restaurant. सभी अधिकार सुरक्षित।</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
